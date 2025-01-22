@@ -1,0 +1,38 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+#count-label{
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: 'Roboto', sans-serif;
+}
+
+#button-container{
+  text-align: center;
+}
+
+.buttons{
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color: white;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+  border-color: black;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.buttons:hover{
+  background-color: mediumpurple;
+}
+
+#reset-btn:hover{
+  background-color:darkred;
+}
